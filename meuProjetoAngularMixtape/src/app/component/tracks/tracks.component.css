@@ -1,0 +1,63 @@
+section {
+  padding-bottom: 32px;
+}
+
+#faixa {
+  background-color: var(--color1);
+  height: 80px;
+  max-width: 1120px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+a {
+  width: 80px;
+  height: 80px;
+  margin-right: 12px;
+}
+
+.capa {
+  height: 80px;
+  width: 80px;
+}
+
+.name {
+  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 180px;
+
+}
+.genero {
+  min-width: 140px;
+}
+.duracao {
+  min-width: 80px;
+  max-width: 124px;
+}
+.bpm {
+  min-width: 80px;
+}
+.tom {
+  min-width: 80px;
+}
+.favoritos {
+  color: var(--color5);
+  font-size: 36px;
+  min-width: 80px;
+}
+.preco {
+  border: solid;
+  border-radius: 25%;
+  border-color: var(--color5);
+  padding: 8px;
+}
+
+#audioPlayer {
+  display: flex;
+  margin-left: 40px;
+  color-scheme: dark;
+}

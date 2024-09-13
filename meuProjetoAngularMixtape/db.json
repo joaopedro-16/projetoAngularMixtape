@@ -1,0 +1,124 @@
+{
+  "jsonTracks": [
+    {
+      "id": 0,
+      "producer": "Blondish",
+      "name": "Cruising",
+      "photo": "https://covers.sndstatic.com/2018/02/23/3799577-blond-ish-colocada-1400.jpg",
+      "genre": "House",
+      "bpm": "120",
+      "key": "Emin",
+      "duration": "6:56",
+      "price": "$59",
+      "audio": "../../../assets/Blondish-Cruising.mp3"
+    },
+    {
+      "id": 1,
+      "producer": "Joeski",
+      "name": "Fellas",
+      "photo": "https://covers.sndstatic.com/2019/04/15/2492483-joeski-hey-fellas-1400.jpg",
+      "genre": "House",
+      "bpm": "125",
+      "key": "Amin",
+      "duration": "7:02",
+      "price": "$39",
+      "audio": "../../../assets/Joeski-Fellas.mp3"
+    },
+    {
+      "id": 2,
+      "producer": "Popof",
+      "name": "Thought",
+      "photo": "https://covers.sndstatic.com/2021/10/22/3444103-popof-revival-1400.jpg",
+      "genre": "House",
+      "bpm": "130",
+      "key": "Gmin",
+      "duration": "5:21",
+      "price": "$49",
+      "audio": "../../../assets/Popof-Thought.mp3"
+    },
+    {
+      "id": 3,
+      "producer": "Trikk",
+      "name": "Vilara",
+      "photo": "https://covers.sndstatic.com/2018/07/06/2286190-va-armada-deep-ibiza-2018-extended-version-1400.jpg",
+      "genre": "Techno",
+      "bpm": "120",
+      "key": "Cmaj",
+      "duration": "6:43",
+      "price": "$39",
+      "audio": "../../../assets/Trikk-Vilara.mp3"
+    },
+    {
+      "id": 4,
+      "producer": "Mutants",
+      "name": "Pigalle",
+      "photo": "https://covers.sndstatic.com/2017/12/01/2139059-sezer-uysal-teenage-mutants-pigalle-ep-1400.jpg",
+      "genre": "Techno",
+      "bpm": "125",
+      "key": "Fmaj",
+      "duration": "6:11",
+      "price": "$49",
+      "audio": "../../../assets/Mutants-Pigalle.mp3"
+    },
+    {
+      "id": 5,
+      "producer": "Popof",
+      "name": "Revival",
+      "photo": "https://covers.sndstatic.com/2024/03/15/4309312-pleasurekraft-tarantula-max-styler-remix-1400.jpg",
+      "genre": "Techno",
+      "bpm": "130",
+      "key": "Gmin",
+      "duration": "5:13",
+      "price": "$39",
+      "audio": "../../../assets/Popof-Revival.mp3"
+    },
+    {
+      "id": 6,
+      "producer": "Airod",
+      "name": "Fury",
+      "photo": "https://covers.sndstatic.com/2019/10/25/2699220-airod-rave-cycle-ep-1400.jpg",
+      "genre": "Techno",
+      "bpm": "135",
+      "key": "Fmaj",
+      "duration": "5:19",
+      "price": "$59",
+      "audio": "../../../assets/Airod-Fury.mp3"
+    },
+    {
+      "id": 7,
+      "producer": "Phaxe",
+      "name": "Lost",
+      "photo": "https://covers.sndstatic.com/2017/06/16/2010357-phaxe-morten-granau-lost-1400.jpg",
+      "genre": "Trance",
+      "bpm": "135",
+      "key": "Gmin",
+      "duration": "9:20",
+      "price": "$49",
+      "audio": "../../../assets/Phaxe-Lost.mp3"
+    },
+    {
+      "id": 8,
+      "producer": "Belik",
+      "name": "Brain",
+      "photo": "https://covers.sndstatic.com/2016/07/28/1808494-belik-boom-best-of-belik-500.jpg",
+      "genre": "Trance",
+      "bpm": "140",
+      "key": "Bmaj",
+      "duration": "8:05",
+      "price": "$49",
+      "audio": "../../../assets/Belik-Brain.mp3"
+    },
+    {
+      "id": 9,
+      "producer": "Ranji",
+      "name": "Lights",
+      "photo": "https://covers.sndstatic.com/2014/06/27/1312569-replay-ranji-tezla-lights-on-500.jpg",
+      "genre": "Trance",
+      "bpm": "140",
+      "key": "Dmin",
+      "duration": "7:49",
+      "price": "$39",
+      "audio": "../../../assets/Ranji-Lights.mp3"
+    }
+  ]
+}

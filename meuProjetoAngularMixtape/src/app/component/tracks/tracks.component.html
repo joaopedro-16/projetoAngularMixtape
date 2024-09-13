@@ -1,0 +1,17 @@
+<section>
+  <div id="faixa">
+    <a [routerLink]="['/details', tracks_list.id]"><img class="capa" [src]="tracks_list.photo" alt="capa"></a>
+    <div >
+      <p class="name">{{ tracks_list.producer }} - {{ tracks_list.name }}</p>
+    </div>
+    <p class="genero">{{ tracks_list.genre }}</p>
+    <p class="bpm">{{ tracks_list.bpm }}</p>
+    <p class="tom">{{ tracks_list.key }}</p>
+    <p class="duracao">{{ tracks_list.duration }}</p>
+    <p class="favoritos">♡</p>
+    <p class="preco">{{ tracks_list.price }}</p>
+    <audio id="audioPlayer" controls>
+      <source [src]="tracks_list.audio" type="audio/mpeg">
+    </audio>
+  </div>
+</section>

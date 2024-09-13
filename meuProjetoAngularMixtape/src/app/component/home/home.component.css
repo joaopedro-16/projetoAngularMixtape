@@ -1,0 +1,82 @@
+form {
+  text-align: center;
+  padding-top: 24px;
+}
+input[type="text"] {
+  border: solid 1px var(--primary-color);
+  padding: 10px;
+  border-radius: 8px;
+  width: 25%;
+  margin: auto;
+  color-scheme: dark;
+}
+button {
+  padding: 10px;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#filtros {
+  padding-top: 24px;
+  display: flex;
+  gap: 20px;
+  max-width: 1420px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  color-scheme: dark;
+}
+#filtros span {
+  background-color: var(--color1);
+  color: var(--color3);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+#filtros p {
+  color: var(--color3);
+}
+label:hover, #filtros input:hover, #apply:hover, #clear:hover {
+  cursor: pointer;
+}
+#filtros input {
+  margin-left: 12px;
+}
+#apply {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 2px solid var(--color2);
+}
+
+hr {
+  max-width: 1120px;
+  margin: auto;
+  margin-top: 24px;
+}
+
+#labels {
+  color: var(--color3);
+  height: 48px;
+  max-width: 1055px;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  padding-left: 90px;
+}
+.name {
+  width: 160px;
+}
+.genero {
+  margin-left: 20px;
+}
+.bpm {
+  margin-left: 85px;
+}
+.tom {
+  margin-left: 50px;
+}
+.duracao  {
+  margin-left: 40px;
+}

@@ -1,0 +1,36 @@
+<form (submit)="onSubmit($event)">
+  <input type="text" #filter (keydown.enter)="filterResults(filter.value)">
+  <button type="submit">Buscar</button>
+</form>
+
+<section id="filtros">
+  <p>Filtros:</p>
+  <span>Genêro:
+    <input type="radio" name="gen" id="techno" value="Techno"><label for="techno">Techno</label>
+    <input type="radio" name="gen" id="house" value="House"><label for="house">House</label>
+    <input type="radio" name="gen" id="trance" value="Trance"><label for="trance">Trance</label>
+  </span>
+  <span>BPM:
+    <input type="radio" name="bpm" id="bpm120" value="120"><label for="bpm120">120</label>
+    <input type="radio" name="bpm" id="bpm125" value="125"><label for="bpm125">125</label>
+    <input type="radio" name="bpm" id="bpm130" value="130"><label for="bpm130">130</label>
+    <input type="radio" name="bpm" id="bpm135" value="135"><label for="bpm135">135</label>
+    <input type="radio" name="bpm" id="bpm140" value="140"><label for="bpm140">140</label>
+  </span>
+  <p id="apply" (click)="applyFilters()">Aplicar</p>
+  <p id="clear" (click)="clearFilters()">Limpar</p>
+</section>
+
+<hr>
+
+<section id="labels">
+  <span class="name">Produtor / Título</span>
+  <span class="genero">Gênero</span>
+  <span class="bpm">BPM</span>
+  <span class="tom">Tom</span>
+  <span class="duracao">Duração</span>
+</section>
+
+<section>
+  <app-tracks *ngFor="let tracks_list of filteredList" [tracks_list]="tracks_list"></app-tracks>
+</section>

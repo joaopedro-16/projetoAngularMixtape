@@ -1,0 +1,15 @@
+<article>
+  <img [src]="tracks_list?.photo">
+  <section>
+    <div>
+      <p>Produtor: <span class="tag">{{tracks_list?.producer}}</span></p>
+      <p>Título da faixa: <span class="tag">{{tracks_list?.name}}</span></p>
+      <p>Gênero: <span class="tag">{{tracks_list?.genre}}</span></p>
+    </div>
+    <div>
+      <p>BPM: <span class="tag"> {{tracks_list?.bpm}}</span></p>
+      <p>Tom: <span class="tag"> {{tracks_list?.key}}</span></p>
+      <p>Duração: <span class="tag"> {{tracks_list?.duration}}</span></p>
+    </div>
+  </section>
+</article>
